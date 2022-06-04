@@ -1,9 +1,7 @@
 import "./footer.css";
 import { BsMouse } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
-import { FaFacebookF } from "react-icons/fa";
-import { TiSocialDribbble } from "react-icons/ti";
-import { TiSocialYoutube } from "react-icons/ti";
+import { AiOutlineLinkedin } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
 
 function Footer() {
@@ -13,27 +11,18 @@ function Footer() {
     
         <a href="#home">
           <h2>
-            <BsMouse /> - scroll up - {/*Cambiar*/}
+            <BsMouse /> - Inicio - 
           </h2>
         </a>
       </h1>
-      <div className="social-links"> {/*Cambiar*/}
-        <a href="#">
+      <div className="social-links">
+        <a href="https://www.instagram.com/luz.magica14/" target={"blank"}>
           <BsInstagram className="social" />
         </a>
-        <a href="#">
+        <a href="https://www.linkedin.com/in/juan-gallardo-317b68230/" target={"blank"}>
           {" "}
-          <FaFacebookF className="social" />
+          <AiOutlineLinkedin className="social" />
         </a>
-        <a href="#">
-          {" "}
-          <TiSocialDribbble className="social" />
-        </a>
-
-        <a href="#">
-          <TiSocialYoutube className="social" />
-        </a>
-
         <a href="https://github.com/JuanGallardoV" target={"blank"}>
           <AiFillGithub className="social" />
         </a>

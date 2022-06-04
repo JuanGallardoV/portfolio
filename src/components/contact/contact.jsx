@@ -6,7 +6,7 @@ import { AiOutlineMail } from "react-icons/ai";
 function Contact() {
   return (
     <div id="contact" className="container contact-container">
-      <h1>Contact Me</h1> {/*Cambiar*/}
+      <h1>Contáctame</h1>
       <div className="contact-links">
         <a href="mailto: juangallardovergara17@gmail.com" target={"blank"} className="contact" rel="noreferrer">
           <AiOutlineMail className="icon" />

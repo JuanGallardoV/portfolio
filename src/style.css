@@ -106,3 +106,7 @@ body::after {
   }
   
 }
+
+img {
+  pointer-events: none;
+}

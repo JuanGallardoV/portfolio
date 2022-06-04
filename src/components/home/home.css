@@ -59,7 +59,6 @@
 .home-container .logo .hover-show.active .circle {
   opacity: 1;
 }
-/*Cambiar algunos*/
 .home-container .logo .hover-show.active .circle:nth-child(1) {
   background: url(../props/html.png);
   background-size: cover;

@@ -3,11 +3,11 @@ import "./button.css";
 function Buttons() {
   return (
     <div className="container button-container">
-      <a href="#about" className="btn pri"> {/*Cambiar*/}
-        Learn more
+      <a href="#projects" className="btn pri">
+        Proyectos
       </a>
-      <a href="#contact" className="btn sec"> {/*Cambiar*/}
-        Contactame
+      <a href="#contact" className="btn sec">
+        Contáctame
       </a>
     </div>
   );

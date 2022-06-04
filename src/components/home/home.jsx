@@ -1,7 +1,7 @@
 import './home.css';
-import img from '../props/img2.jpg'; /*Cambiar*/
+import img from '../props/photo.jpg';
 import Buttons from '../button/button';
-import { BsMouse } from 'react-icons/bs';
+// import { BsMouse } from 'react-icons/bs';
 
 function Home() {
   return (
@@ -21,12 +21,12 @@ function Home() {
         <img src={img} alt='' />
       </div>
 
-      <a href='#footer' className='scroll-down'>
+      {/* <a href='#footer' className='scroll-down'>
         <hr />
         <h5>scroll down</h5>
         <BsMouse className='scroll' />
         <hr />
-      </a>
+      </a> */}
 
       <h2>
         <span>Sobre Mí</span> <br />

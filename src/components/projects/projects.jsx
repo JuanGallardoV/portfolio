@@ -1,18 +1,18 @@
 import "./projects.css";
+import webppj from '../props/webppj.png'
+import parland from '../props/parland.png'
 
 const Projects = () => {
   return (
     <div id="projects" className="container projects-container">
       <h1 className="project-txt">Proyectos</h1>
-      <div className="project project-1">
-        <div className="project-img"></div>
+      <div className="project project-1" id="webppj">
+        <img src={webppj} alt="" className="project-img"></img>
         <div className="project-info">
           <h1 className="name">WEBPPJ</h1>
           <h3 className="position">React</h3>
-          <h4 className="about"> {/*Cambiar*/}
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-            maiores harum laborum vero recusandae? Cumque nam facere aspernatur
-            autem eius!
+          <h4 className="about">
+            Red social para el Programa de Profesionales Jovenes para añadir información para sus planes de estudio
           </h4>
           <a href="https://github.com/WEBPPJ/WEBPPJ" target={"blank"} className="contact-project" rel="noreferrer">
             <span>Ver codigo fuente</span>
@@ -21,16 +21,14 @@ const Projects = () => {
       </div>
 
       <div className="project project-2">
-        <div className="project-img"></div>
+        <img src={parland} alt="" className="project-img"></img>
         <div className="project-info">
           <h1 className="name">ParLand</h1>
           <h3 className="position">C#</h3>
-          <h4 className="about"> {/*Cambiar*/}
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-            maiores harum laborum vero recusandae? Cumque nam facere aspernatur
-            autem eius!
+          <h4 className="about">
+            Conjunto de minijuegos desarrollados en Java ejecutados en C#
           </h4>
-          <a href="https://github.com/JuanGallardoV/InterfazParland" className="contact-project">
+          <a href="https://github.com/JuanGallardoV/InterfazParland" target={"blank"} className="contact-project">
             <span>Ver codigo fuente</span>
           </a>
         </div>
@@ -41,12 +39,10 @@ const Projects = () => {
         <div className="project-info">
           <h1 className="name">Sistema VGE</h1>
           <h3 className="position">Laravel</h3>
-          <h4 className="about"> {/*Cambiar*/}
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-            maiores harum laborum vero recusandae? Cumque nam facere aspernatur
-            autem eius!
+          <h4 className="about">
+            Gestor de ventas, inventario y clientes con login incorporado
           </h4>
-          <a href="https://github.com/JuanGallardoV/Encargos" className="contact-project">
+          <a href="https://github.com/JuanGallardoV/Encargos" target={"blank"} className="contact-project">
             <span>Ver codigo fuente</span>
           </a>
         </div>

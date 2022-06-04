@@ -3,7 +3,7 @@ import "./qualifications.css";
 const Qualifications = () => {
   return (
     <div>
-      <span className="quali-text">My Qualifications</span>
+      <span className="quali-text">Skills</span>
       <div className="qualifications-container">
         <div className="qualification">
           <div className="content html"></div>
@@ -25,7 +25,6 @@ const Qualifications = () => {
           <div className="content react"></div>
           <h1>react</h1>
         </div>
-        {/*Cambiar*/}
         <div className="qualification">
           <div className="content angular"></div>
           <h1>angular</h1>
@@ -34,7 +33,6 @@ const Qualifications = () => {
           <div className="content c-sharp"></div>
           <h1>c#</h1>
         </div>
-        {/*Cambiar*/}
         <div className="qualification">
           <div className="content laravel"></div>
           <h1>laravel</h1>
