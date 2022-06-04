@@ -99,7 +99,7 @@
     border-radius: 50px;
     backdrop-filter: blur(20px);
   }
-  .projects-container .project-1 .project-img {
+  .projects-container .project .project-img {
     height: 100px;
     width: 100px;
     border-radius: 50%;

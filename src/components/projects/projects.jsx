@@ -1,13 +1,14 @@
 import "./projects.css";
 import webppj from '../props/webppj.png'
 import parland from '../props/parland.png'
+import sistemavge from '../props/sistemavge.png'
 
 const Projects = () => {
   return (
     <div id="projects" className="container projects-container">
       <h1 className="project-txt">Proyectos</h1>
       <div className="project project-1" id="webppj">
-        <img src={webppj} alt="" className="project-img"></img>
+        <img src={webppj} alt="" className="project-img" loading="lazy"></img>
         <div className="project-info">
           <h1 className="name">WEBPPJ</h1>
           <h3 className="position">React</h3>
@@ -21,7 +22,7 @@ const Projects = () => {
       </div>
 
       <div className="project project-2">
-        <img src={parland} alt="" className="project-img"></img>
+        <img src={parland} alt="" className="project-img" loading="lazy"></img>
         <div className="project-info">
           <h1 className="name">ParLand</h1>
           <h3 className="position">C#</h3>
@@ -35,14 +36,14 @@ const Projects = () => {
       </div>
 
       <div className="project project-3">
-        <div className="project-img"></div>
+        <img src={sistemavge} alt="" className="project-img"></img>
         <div className="project-info">
           <h1 className="name">Sistema VGE</h1>
           <h3 className="position">Laravel</h3>
           <h4 className="about">
             Gestor de ventas, inventario y clientes con login incorporado
           </h4>
-          <a href="https://github.com/JuanGallardoV/Encargos" target={"blank"} className="contact-project">
+          <a href="https://github.com/JuanGallardoV/Encargos" target={"blank"} className="contact-project" loading="lazy">
             <span>Ver codigo fuente</span>
           </a>
         </div>
