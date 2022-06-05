@@ -31,9 +31,8 @@ function Home() {
       <h2>
         <span>Sobre Mí</span> <br />
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis id
-          quos deserunt, maxime sint sunt tempore quidem ad praesentium itaque,
-          aspernatur, magnam culpa iste adipisci? {/*Cambiar*/}
+        Mis inicios como programador, fueron con Java, estudiando y aplicando diversas herramientas, hasta que descubrí diseño web.
+Al crear mi primera pagina web, viendo las posibilidades y lo que se puede llegar a generar en una persona, me di cuenta de lo que realmente queria hacer, y eso es diseñar, que sea atractivo, que sea una experiencia para que el usuario se vaya con una sonrisa de la pagina
         </p>
       </h2>
 
