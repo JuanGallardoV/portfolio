@@ -31,8 +31,7 @@ function Home() {
       <h2>
         <span>Sobre Mí</span> <br />
         <p>
-        Mis inicios como programador, fueron con Java, estudiando y aplicando diversas herramientas, hasta que descubrí diseño web.
-Al crear mi primera pagina web, viendo las posibilidades y lo que se puede llegar a generar en una persona, me di cuenta de lo que realmente queria hacer, y eso es diseñar, que sea atractivo, que sea una experiencia para que el usuario se vaya con una sonrisa de la pagina
+        Mis inicios como programador, fueron con Java, estudiando y aplicando diversas herramientas, hasta que descubrí diseño web. Al crear mi primera página web, viendo las posibilidades y lo que se puede llegar a generar en una persona, me di cuenta de lo que realmente quería hacer, y eso es diseñar, que sea atractivo, que sea una experiencia para que el usuario se vaya con una sonrisa de la página
         </p>
       </h2>
 

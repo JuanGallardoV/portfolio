@@ -13,10 +13,10 @@ const Projects = () => {
           <h1 className="name">WEBPPJ</h1>
           <h3 className="position">React</h3>
           <h4 className="about">
-            Red social para el Programa de Profesionales Jovenes para añadir información para sus planes de estudio
+          Red social para el Programa de Profesionales Jóvenes para añadir información para sus planes de estudio
           </h4>
           <a href="https://github.com/WEBPPJ/WEBPPJ" target={"blank"} className="contact-project" rel="noreferrer">
-            <span>Ver codigo fuente</span>
+            <span>Ver código fuente</span>
           </a>
         </div>
       </div>
@@ -30,7 +30,7 @@ const Projects = () => {
             Conjunto de minijuegos desarrollados en Java ejecutados en C#
           </h4>
           <a href="https://github.com/S-A-EXETUM/InterfazParland" target={"blank"} className="contact-project">
-            <span>Ver codigo fuente</span>
+            <span>Ver código fuente</span>
           </a>
         </div>
       </div>
@@ -44,7 +44,7 @@ const Projects = () => {
             Gestor de ventas, inventario y clientes con login incorporado
           </h4>
           <a href="https://github.com/JuanGallardoV/Encargos" target={"blank"} className="contact-project" loading="lazy">
-            <span>Ver codigo fuente</span>
+            <span>Ver código fuente</span>
           </a>
         </div>
       </div>
