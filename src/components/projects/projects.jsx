@@ -29,7 +29,7 @@ const Projects = () => {
           <h4 className="about">
             Conjunto de minijuegos desarrollados en Java ejecutados en C#
           </h4>
-          <a href="https://github.com/JuanGallardoV/InterfazParland" target={"blank"} className="contact-project">
+          <a href="https://github.com/S-A-EXETUM/InterfazParland" target={"blank"} className="contact-project">
             <span>Ver codigo fuente</span>
           </a>
         </div>
