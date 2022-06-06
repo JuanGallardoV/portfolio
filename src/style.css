@@ -110,3 +110,7 @@ body::after {
 img {
   pointer-events: none;
 }
+
+body  {
+  user-select: none;
+}
