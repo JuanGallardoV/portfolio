@@ -121,7 +121,8 @@
   height: 300px;
   width: 300px;
   border-radius: 50%;
-  border: 3px solid rgb(108, 161, 197);
+  /* border: 3px solid rgb(108, 161, 197); */
+  border: 3px solid grey;
   transform: translate(-200px);
   opacity: 0;
   animation: fade-in 1s ease 1 0.5s forwards;
