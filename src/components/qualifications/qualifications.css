@@ -44,54 +44,6 @@
   margin-top: 20px;
 }
 
-.qualifications-container .qualification .content.html {
-  background: rgba(255, 255, 255, 0.103) url(../props/html.png);
-  background-position: center;
-  background-size: 66px;
-}
-.qualifications-container .qualification .content.css {
-  background: rgba(255, 255, 255, 0.103) url(../props/css.png);
-  background-position: center;
-  background-size: cover;
-  background-size: 66px;
-}
-.qualifications-container .qualification .content.javascript {
-  background: rgba(255, 255, 255, 0.103) url(../props/js.jpg);
-  background-position: center;
-  background-size: cover;
-  background-size: 90px;
-}
-.qualifications-container .qualification .content.bootstrap {
-  background: rgba(255, 255, 255, 0.103) url(../props/bootstrap.png);
-  background-position: center;
-  background-size: cover;
-  background-size: 66px;
-}
-.qualifications-container .qualification .content.react {
-  background: rgba(255, 255, 255, 0.103) url(../props/react.png);
-  background-position: center;
-  background-size: cover;
-  background-size: 66px;
-}
-.qualifications-container .qualification .content.angular {
-  background: rgba(255, 255, 255, 0.103) url(../props/angular.png);
-  background-position: center;
-  background-size: cover;
-  background-size: 66px;
-}
-.qualifications-container .qualification .content.c-sharp {
-  background: rgba(255, 255, 255, 0.103) url(../props/c-sharp.png);
-  background-position: center;
-  background-size: cover;
-  background-size: 66px;
-}
-.qualifications-container .qualification .content.laravel {
-  background: rgba(255, 255, 255, 0.103) url(../props/laravel.png);
-  background-position: center;
-  background-size: cover;
-  background-size: 66px;
-}
-
 @media (max-width: 820px) {
   .quali-text {
     font-size: 30px;

@@ -42,7 +42,7 @@ const Projects = () => {
       {
         projects.map((project) => (
           <div className="project" id={project.name}>
-            <img src={project.img} alt="" className="project-img" loading="lazy"></img>
+            <img src={project.img} alt="" className="project-img" loading="lazy" key={project.name}></img>
             <div className="project-info">
               <h1 className="name">{project.name}</h1>
               <h3 className="position">{project.language}</h3>
