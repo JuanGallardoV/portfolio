@@ -27,14 +27,12 @@
 }
 
 .button-container .btn.pri {
-  /* border: 2px solid var(--color-sec); */
-  border: 2px solid var(--color-pri);
+  border: 2px solid var(--color-sec);
 }
 
 .button-container .btn.pri:hover {
   border: none;
-  /* background-color: var(--color-sec); */
-  background-color: var(--color-pri);
+  background-color: var(--color-sec);
 }
 
 .button-container .btn.pri::before {

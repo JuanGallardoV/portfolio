@@ -1,10 +1,19 @@
 import "./projects.css";
+import { AiFillGithub } from "react-icons/ai";
 import webppj from '../props/webppj.png'
 import parland from '../props/parland.png'
 import sistemavge from '../props/sistemavge.png'
 import betterpokedex from '../props/betterpokedex.png'
+import shadboi from '../props/shadboi.png'
 
 const projects = [
+  {
+    name: 'Shadboya',
+    language: 'NextJS',
+    desc: 'Portafolio diseñado para el artista Shadboi',
+    img: shadboi,
+    github: 'https://github.com/JuanGallardoV/shadboya'
+  },
   {
     name: 'Better Pokédex',
     language: 'HTML/JS/CSS',
@@ -51,6 +60,7 @@ const Projects = () => {
               </h4>
               <a href={project.github} target={"blank"} className="contact-project" rel="noreferrer">
                 <span>Ver código fuente</span>
+                <AiFillGithub className="dd-none" size={20}/>
               </a>
             </div>
           </div>

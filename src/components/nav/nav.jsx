@@ -4,14 +4,10 @@ import { AiOutlineUser } from "react-icons/ai";
 import { MdWork } from "react-icons/md";
 import { BiMessageRoundedDots } from "react-icons/bi";
 import { BsArrowDownCircle } from "react-icons/bs";
-import logo from "../props/acl_logo.png"
 
 function Navbar() {
   return (
     <div className="navigation">
-      <div>
-        <img className='acl icon' src={logo} alt="ACL" />
-      </div>
       <a href="#home">
         <AiOutlineHome className="icon active-nav" />
       </a>
